@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icon - arrowcircle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon---arrowcircle" transform="translate(1.000000, 1.000000)" stroke="#E3705C">
+            <circle id="Oval" stroke-width="0.890909091" cx="24.5" cy="24.5" r="24.5"></circle>
+            <polyline id="Path" transform="translate(25.000000, 26.500000) scale(1, -1) translate(-25.000000, -26.500000) " points="17 31 25 22 25 22 33 31"></polyline>
+        </g>
+    </g>
+</svg>
