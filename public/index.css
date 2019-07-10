@@ -6,7 +6,7 @@ body  {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family:'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 40px;
 }
@@ -20,13 +20,31 @@ h2 {
 p, li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 
 .input-group {
-    width: 50%;
-    margin: 50px auto;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    height: 30px;
+    width: 70%;
+}
+
+.input-group input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  height: 70px;
+  width: 60px;
+  padding: 20px;
+}
+
+.input-group-append {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  height: 70px;
+  width: 60px;
 }
 
 .button {
