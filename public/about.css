@@ -1,5 +1,50 @@
-#pasta{
-  position: fixed;
-  top: 0px;
-  left: 0px;
+.pasta {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    
+    display: flex;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    
+    align-items: center;    
 }
+
+img {
+    min-height: 250px;
+}
+
+
+span {
+  vertical-align: middle;
+  display: table-cell;
+  padding: 60px;
+}
+
+p {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+header {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+
+.bread {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  display: table;
+}
+
+
