@@ -1,8 +1,24 @@
 body  { 
+  font-family: 'Montserrat', sans-serif;
   background-image: url(background.jpg);
   background-position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 
 .main {
