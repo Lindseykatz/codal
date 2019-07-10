@@ -1,5 +1,4 @@
 body  { 
-  font-family: 'Montserrat', sans-serif;
   background-image: url(background.jpg);
   background-position: absolute;
   background-repeat: no-repeat;
@@ -8,36 +7,28 @@ body  {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 40px;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 30px;
 }
 
-p {
+p, li {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 14px;
 }
 
-.main {
+
+.input-group {
     width: 50%;
     margin: 50px auto;
 }
 
-.has-search .form-control {
-    padding-left: 2.375rem;
-}
-
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
+.button {
+  background-color: #d48168;
 }
