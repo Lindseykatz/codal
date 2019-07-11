@@ -51,3 +51,13 @@ header {
   text-align: center;
 }
 
+hr.second {
+  width:100px; 
+  border: 2px solid grey;
+  color:grey;
+}
+
+hr.third {
+  width:100px; 
+  color:grey;
+}
