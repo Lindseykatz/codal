@@ -1,8 +1,10 @@
 body  { 
   background-image: url(background.jpg);
-  background-position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image-bottom: 0px;
+  background-right: 0px;
+  display: table;
 }
 
 h1 {
@@ -49,4 +51,21 @@ p, li {
 
 .button {
   background-color: #d48168;
+}
+
+#home, #about, #items{
+  height: 960px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+hr.first {
+  width:250px; 
+  color:grey;
 }

@@ -19,13 +19,14 @@ img {
 }
 
 
-span {
+.pasta-2, .bread-2 {
   vertical-align: middle;
   display: table-cell;
   padding: 60px;
+
 }
 
-p {
+.pasta-2.p {
   font-family:'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -35,16 +36,18 @@ header {
   font-family:'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  vertical-align: middle;
+  vertical-align: center;
   display: table-cell;
 }
 
 
 .bread {
-  position: fixed;
   bottom: 0px;
   right: 0px;
   display: table;
 }
 
+.center {
+  text-align: center;
+}
 
