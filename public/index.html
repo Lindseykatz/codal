@@ -6,10 +6,11 @@
   <meta charset="UTF-8">
   <title>orderve</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap">
-<!--  Need to add in Montserrat normal (400) -->
+<!--  TODO: Need to add in Montserrat normal (400) -->
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="about.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
   
 </head>
@@ -72,11 +73,11 @@
       </div>
     </nav>
     <div style="text-align:center">
-      <h1>order</h1>
+      <h1 class="first">order</h1>
       <hr class="first"></hr>
       <div class="dot"></div>
       <hr class="first"></hr>
-      <h1>easy</h1>
+      <h1 class="first">easy</h1>
     </div>
     <div class="input-group">
       <input type="text" class="form-control" placeholder="Search by product, category, or dietary considerations...">
@@ -107,9 +108,10 @@
             <header> From Fresh</header>
             <header>To Prepared </header>
             <hr class="third"></hr>
-            <p> We are here to help you get everything you need to keep the kitchen running smoothly. </p>
-            <p> Scroll below to begin shopping</p>
+            <p class="first"> We are here to help you get everything you need to keep the kitchen running smoothly. </p>
+            <p class="second"> Scroll below to begin shopping</p>
             <img src="icon - arrowcircle.svg" width="50px">
+<!--             TODO: add on click to move to #items -->
           </div>
         </span>
         <img src="bread.jpg" alt="bread" style="vertical-align:middle" width="700" height="450">
@@ -118,8 +120,17 @@
   </div>
 
   <div id="items">
+    <br style="line-height:7;">
+    <div style="text-align:center">
+      <p class="second">shop our most popular</p>
+      <hr class="fourth"></hr>
+      <header>products</header>
+    </div>
 
   </div>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
 </html>

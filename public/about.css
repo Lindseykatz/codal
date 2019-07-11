@@ -61,3 +61,24 @@ hr.third {
   width:100px; 
   color:grey;
 }
+
+hr.fourth {
+  width:50px; 
+  color:grey;
+}
+
+.items {
+  margin-top: 100px;
+}
+
+p.first {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: grey;
+}
+
+p.second {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: black;
+}
