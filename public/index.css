@@ -1,10 +1,12 @@
-body  { 
+#home  { 
   background-image: url(background.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-image-bottom: 0px;
-  background-right: 0px;
-  display: table;
+  background-size: auto;
+  background-position: right;
+  /*background-image-bottom: 0px;*/
+  /*background-right: 0px;*/
+  /*display: table;*/
+
 }
 
 h1.first {
@@ -27,11 +29,10 @@ p, li {
 
 
 .input-group {
-    position: absolute;
-    top: 200px;
-    left: 70px;
-    height: 30px;
-    width: 70%;
+  position: absolute;
+  height: 30px;
+  width: 100%;
+  display: flex;
 }
 
 .input-group input {
@@ -46,7 +47,6 @@ p, li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   height: 70px;
-  width: 60px;
 }
 
 .button {
@@ -54,7 +54,7 @@ p, li {
 }
 
 #home, #about, #items{
-  height: 960px;
+  height: 100vh;
 }
 
 .dot {
@@ -70,3 +70,10 @@ hr.first {
   color:grey;
 }
 
+.bg-light {
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  border: 1px solid grey;;
+}
