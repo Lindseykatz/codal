@@ -66,7 +66,7 @@ p, li {
   background-color: #d48168;
 }
 
-#home, #about, #products{
+#home, #about, #products {
   height: 100vh;
 }
 
@@ -93,3 +93,5 @@ hr.first {
 .navbar-brand {
   border: 1px solid grey;;
 }
+
+
