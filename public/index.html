@@ -103,7 +103,7 @@
         <img style="vertical-align:middle" src="pasta.jpg" alt="pasta" width="350" height="250">
         <span class="pasta-2" style="vertical-align:middle">
           <hr align="left" class="second" margin-top="-120px"></hr>
-          <img src="logo - orderve - grey.svg" width="100px">
+          <img src="logo - orderve - grey.svg" width="70px" margin-top="-100px">
           <hr align="left" class="third"></hr>
           <p>At Orderve our love of food goes beyond just what's on our plates. We're here to help you order easy, so you can spend more time doing what you do best: creating the food we're craving.</p>
           <hr align="left" class="third"></hr>
@@ -120,8 +120,10 @@
             <hr class="third"></hr>
             <p class="first"> We are here to help you get everything you need to keep the kitchen running smoothly. </p>
             <p class="second"> Scroll below to begin shopping</p>
-            <img src="icon - arrowcircle.svg" width="50px">
+            <a href="#products">
+              <img src="icon - arrowcircle.svg" width="50px">
 <!--             TODO: add on click to move to #items -->
+            </a>
           </div>
         </span>
         <img src="bread.jpg" alt="bread" style="vertical-align:middle" width="700" height="450">
@@ -137,6 +139,16 @@
       <hr class="fourth"></hr>
       <header>products</header>
     </div>
+
+    <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+      <div><h3>1</h3></div>
+      <div><h3>2</h3></div>
+      <div><h3>3</h3></div>
+      <div><h3>4</h3></div>
+      <div><h3>5</h3></div>
+      <div><h3>6</h3></div>
+    </div>
+
   </section>
 
 
@@ -144,5 +156,14 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+        setting-name: setting-value
+      });
+    });
+  </script>
+
 </body>
 </html>
