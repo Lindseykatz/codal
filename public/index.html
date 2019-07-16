@@ -9,7 +9,7 @@
 <!--  TODO: Need to add in Montserrat normal (400) -->
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="css/about.css">
-  <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="product.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/slick.css"/>
   <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
@@ -195,6 +195,7 @@
         <div class="category-2"> Category 3 </div>
       </div>
       <hr class="underline">
+      <!-- TODO: Make the category words as buttons, make the category that is clicked bold with red underline -->
     </div>
 
     <div class="slider-area slider lines">
@@ -248,19 +249,19 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="js/slick.js"></script>
   <script>
-      $(".slider-area").slick({
-          dots: true,
-          // dotsClass: "dots",
-          arrows: true,
-          variableWidth: true,
-          // infinite: true,
-          centerMode: true,
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          customPaging: function(slider, i) {      
-          return '<div class="pager__item" id=' + i + "> __ </div>";
-        },
-      });
+    $(".slider-area").slick({
+      dots: true,
+      // dotsClass: "dots",
+      arrows: true,
+      variableWidth: true,
+      // infinite: true,
+      centerMode: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      customPaging: function(slider, i) {
+      return '<div class="pager__item" id=' + i + "> __ </div>";
+      },
+    });
   </script>
 
 </body>
