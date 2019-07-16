@@ -19,64 +19,79 @@
 
 <body>
   <div id="nav">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="logo - orderve - green.svg">Orderve</a>
+    <nav class="navbar navbar-expand-lg navbar-custom row">
+
+      <div class="col-2">
+        <a class="navbar-brand m-3" href="about">
+          <img src="logo - orderve - green.svg" width="70" alt="Orderve"/>
+        </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      </div>
+      
+      <div class="col-10">
+        <div class="text-right">
+          <span> Hello </span>
+          <span> Hello </span>
+          <span> Hello </span>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dairy
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Protein
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dry Goods
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Non-Food
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dairy
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Protein
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dry Goods
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Non-Food
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
 
   <section  id="home" style="text-align:center">
+    <br style="line-height:2;">
     <h1 class="first">order</h1>
     <div>
       <hr style="display: inline-block;" class="first"></hr>
@@ -89,8 +104,8 @@
       <div class="input-group">
         <input type="text" class="form-control" placeholder="Search by product, category, or dietary considerations...">
         <div class="input-group-append">
-          <button class="button" type="button">
-            <input type="image" src="icon-m. glass.svg" alt="Search">
+          <button class="button pl-4 pr-4" type="button">
+            <img src="icon-m. glass.svg" alt="Search">
             <!-- TODO: Make magnifying glass bigger  -->
           </button>
         </div>
@@ -100,35 +115,38 @@
   </section>
 
 
-  <section id="about">
-    <div class="about">
-      <div class="pasta">
-        <img style="vertical-align:middle" src="pasta.jpg" alt="pasta" width="350" height="250">
-        <span class="pasta-2" style="vertical-align:middle">
-          <hr align="left" class="second" margin-top="-120px"></hr>
-          <img src="logo - orderve - grey.svg" width="70px" margin-top="-100px">
-          <hr align="left" class="third"></hr>
-          <p>At Orderve our love of food goes beyond just what's on our plates. We're here to help you order easy, so you can spend more time doing what you do best: creating the food we're craving.</p>
-          <hr align="left" class="third"></hr>
-        </span>
+  <section id="about" class="container-fluid">
+    <div class="pasta row">
+      <div class="col-4 p-0">
+        <img class="img-fluid" src="pasta.jpg" alt="pasta">
       </div>
 
+      <div class="pasta-2 col-8" style="vertical-align:middle">
+        <hr align="left" class="second" margin-top="-120px"></hr>
+        <img src="logo - orderve - grey.svg" width="70px" margin-top="-100px">
+        <hr align="left" class="third"></hr>
+        <p>At Orderve our love of food goes beyond just what's on our plates. We're here to help you order easy, so you can spend more time doing what you do best: creating the food we're craving.</p>
+        <hr align="left" class="third"></hr>
+      </div>
+    </div>
 
-      <div class="bread">
-        <span class="bread-2" style="vertical-align:middle">
-          <div style="text-align:center">
-            <hr class="second"></hr>
-            <header> From Fresh</header>
-            <header>To Prepared </header>
-            <hr class="third"></hr>
-            <p class="first"> We are here to help you get everything you need to keep the kitchen running smoothly. </p>
-            <p class="second"> Scroll below to begin shopping</p>
-            <a href="#products">
-              <img src="icon - arrowcircle.svg" width="50px">
-            </a>
-          </div>
-        </span>
-        <img src="bread.jpg" alt="bread" style="vertical-align:middle" width="700" height="450">
+
+    <div class="bread row">
+      <div class="bread-2 col-4" style="vertical-align:middle">
+        <div style="text-align:center">
+          <hr class="second"></hr>
+          <header> From Fresh</header>
+          <header>To Prepared </header>
+          <hr class="third"></hr>
+          <p class="first"> We are here to help you get everything you need to keep the kitchen running smoothly. </p>
+          <p class="second"> Scroll below to begin shopping</p>
+          <a href="#products">
+            <img src="icon - arrowcircle.svg" width="50px">
+          </a>
+        </div>
+      </div>
+      <div class="col-8 p-0 pb-5">
+        <img class="img-fluid" src="bread.jpg" alt="bread">
       </div>
     </div>
   </section>
@@ -136,7 +154,7 @@
 
 
   <section id="products">
-    <br style="line-height:20;">
+    <br style="line-height:3;">
     <div style="text-align:center">
       <p class="second">shop our most popular</p>
       <hr class="fourth"></hr>
@@ -161,16 +179,20 @@
   </section>
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="js/slick.js"></script>
   <script>
-    $(".slider-area").slick({
-      dots: true,
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 3
-    });
+      $(".slider-area").slick({
+          dots: true,
+          // dotsClass: "dots",
+          arrows: true,
+          variableWidth: true,
+          // infinite: true,
+          centerMode: true,
+          slidesToShow: 3,
+          slidesToScroll: 3
+      });
   </script>
 
 </body>

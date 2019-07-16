@@ -14,15 +14,11 @@
     align-items: center;    
 }
 
-img {
-    min-height: 250px;
-}
 
 
 .pasta-2, .bread-2 {
   vertical-align: middle;
   display: table-cell;
-  padding: 60px;
 
 }
 
@@ -52,14 +48,14 @@ header {
 }
 
 hr.second {
-  width:100px; 
+  width:66px; 
   border: 2px solid grey;
   color:grey;
-  
+
 }
 
 hr.third {
-  width:100px; 
+  width:70px; 
   color:grey;
 }
 

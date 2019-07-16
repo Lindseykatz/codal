@@ -8,7 +8,7 @@
     }
 
     .slider {
-        width: 50%;
+        width: 90%;
         margin: 100px auto;
     }
 
@@ -25,6 +25,9 @@
       color: black;
     }
 
+    .img {
+      width: 200px;
+    }
 
     .slick-slide {
       transition: all ease-in-out .3s;
@@ -50,4 +53,16 @@
 #products {
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+.dots {
+  color: red;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: red !important;
+}
+
+.slick-slide {
+  max-width: 300px;
 }
