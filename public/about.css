@@ -19,7 +19,13 @@
 .pasta-2, .bread-2 {
   vertical-align: middle;
   display: table-cell;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
 
+}
+
+.bread-2 {
+  padding: 100px !important;
 }
 
 .pasta-2.p {
@@ -31,10 +37,11 @@
 header {
   font-family:'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 20px;
   vertical-align: center;
   display: table-cell;
 }
+
 
 
 .bread {
@@ -71,11 +78,22 @@ hr.fourth {
 p.first {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  font-size: 14px;
   color: grey;
 }
 
 p.second {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  font-size: 14px;
   color: black;
+  margin: 0px;
+}
+
+p.third {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  margin: 0px;
 }

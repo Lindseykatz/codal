@@ -9,7 +9,7 @@
 
     .slider {
         width: 90%;
-        margin: 100px auto;
+        margin: 40px auto;
     }
 
     .slick-slide {
@@ -64,5 +64,67 @@
 }
 
 .slick-slide {
-  max-width: 300px;
+  max-width: 350px;
+}
+
+p.third {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+  margin: 0px;
+}
+
+p.product-1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
+  margin: 0px;
+}
+
+p.product-2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: grey;
+  margin: 0px;
+}
+
+p.product-3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #d48168;
+  margin: 0px;
+  letter-spacing: 2px;
+}
+
+.category-1, .category-2 {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.category-1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: black;
+}
+
+.category-2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: grey;
+}
+
+hr.underline {
+  width:700px;
+  color:grey;
+}
+
+.pager_item {
+  width:70px;
 }
