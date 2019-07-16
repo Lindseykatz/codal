@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap">
 <!--  TODO: Need to add in Montserrat normal (400) -->
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="about.css">
-  <link rel="stylesheet" href="product.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/product.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/slick.css"/>
   <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
@@ -24,7 +24,7 @@
 
       <div class="col-2">
         <a class="navbar-brand m-3" href="about">
-          <img src="logo - orderve - green.svg" width="80" alt="Orderve"/>
+          <img src="logo - orderve - green.svg" width="80" alt="Orderve" aria-labelledby="Orderve logo"/>
         </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -127,11 +127,10 @@
 
     <div class="p-5">
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search by product, category, or dietary considerations...">
+        <input type="text" class="form-control" aria-labelledby="search bar input" placeholder="Search by product, category, or dietary considerations...">
         <div class="input-group-append">
-          <button class="button pl-4 pr-4" type="button">
+          <button class="button pl-4 pr-4" type="button" aria-labelledby="search button">
             <img src="icon-m. glass.svg" alt="Search">
-            <!-- TODO: Make magnifying glass bigger  -->
           </button>
         </div>
       </div>
@@ -143,10 +142,10 @@
   <section id="about" class="container-fluid">
     <div class="pasta row">
       <div class="col-4 p-0">
-        <img class="img-fluid" src="images/pasta.jpg" alt="pasta">
+        <img class="img-fluid" src="images/pasta.jpg" alt="pasta" aria-labelledby="pasta image">
       </div>
 
-      <div class="pasta-2 col-8" style="vertical-align:middle">
+      <div class="pasta-2 col-8" style="vertical-align:middle" aria-labelledby="About Orderve">
         <hr align="left" class="second" margin-top="-120px"></hr>
         <img src="logo - orderve - grey.svg" width="70px" margin-top="-100px">
         <hr align="left" class="third"></hr>
@@ -157,7 +156,7 @@
 
 
     <div class="bread row">
-      <div class="bread-2 col-4" style="vertical-align:middle">
+      <div class="bread-2 col-4" style="vertical-align:middle" aria-labelledby="More About Orderve">
         <div style="text-align:center">
           <hr class="second"></hr>
           <header> From Fresh</header>
@@ -173,7 +172,7 @@
         </div>
       </div>
       <div class="col-8 p-0 pb-5">
-        <img class="img-fluid" src="images/bread.jpg" alt="bread">
+        <img class="img-fluid" src="images/bread.jpg" alt="bread" aria-labelledby="Bread image">
       </div>
     </div>
   </section>
@@ -227,6 +226,7 @@
         <p class="product-2"> Multiple Sizes Available </p>
         <p class="product-3"> $3.31 </p>
       </div>
+      <!-- TODO: Move arrows to right side align, make slider "dots" to lines. -->
     </div>
     
     <hr class="underline">
